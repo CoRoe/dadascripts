@@ -8,7 +8,7 @@ verdikt:
 
 satz:
 	  attribut1 " und " attribut1 ", aber schon das ganze Potential"
-	  " andeutend, gelingt der " ["Spagat"|"Kompromiß"] " zwischen "
+	  " andeutend, gelingt der " ["Spagat"|"KompromiÃŸ"] " zwischen "
 	   attribut2 " und " attribut2
 	| "ein Wein: " attribut1 " und " attribut1 ", aber auch mit "
 	  attribut2 " ausgestattet"
@@ -16,7 +16,7 @@ satz:
 	  " umgeben"
 	| "Ein " $Rebsorte-v " mit einer " ["gebiets"|"boden"|"sorten"] 
 	 "typischen " attribut2
-	| er " verströmt ein " [leicht|kraeftig] "es " aroma-akk "aroma"
+	| er " verstrÃ¶mt ein " [leicht|kraeftig] "es " aroma-akk "aroma"
 	| attribut1 " und " attribut1 " in der Nase, hinterher dann " attribut2
 	| ["Die Barriquemethode"|"Der " boden |"Die Lagerung im " Fass] " verleiht ihm "
 	  ["einen Anklang an "  aroma-akk |"ein Aroma von " aroma-dat]
@@ -28,11 +28,11 @@ satz:
 	| "seine " attribut2 " bildet "
 	 ["einen reizvollen Kontrast"|"ein interessantes Pendant"] " zu seiner "
 	  attribut2
-	| "weder " neg-attr1 " noch " neg-attr1 ", überzeugt " er " durch "
+	| "weder " neg-attr1 " noch " neg-attr1 ", Ã¼berzeugt " er " durch "
 	  attribut2 " und " attribut2
-	| "In keiner Weise " neg-attr1 ", weiß " er " durch " attribut2
+	| "In keiner Weise " neg-attr1 ", weiÃŸ " er " durch " attribut2
 	  [" und "|" verbunden mit "]
-	  attribut2 " zu " ["gewinnen"|"überzeugen"|"gefallen"]
+	  attribut2 " zu " ["gewinnen"|"Ã¼berzeugen"|"gefallen"]
 ;
 
 wein:	ort "er " lage1 lage2
@@ -41,32 +41,32 @@ wein:	ort "er " lage1 lage2
 ort:	"Kitzing" | ort1 ort2
 ;
 
-ort1:	"Hohen" | "Dinkels" | "Nerven" | "Gunzen" | "Käs" | "Ochsen"
+ort1:	"Hohen" | "Dinkels" | "Nerven" | "Gunzen" | "KÃ¤s" | "Ochsen"
 ;
 
 ort2:	"heim" | "hausen" | "weil" | "ach" | "kirch"
 ;
 
-lage1:	"Katzen" | "Hamster" | "Sonnen" | "Mönchs"| "Frosch" | "Dudel"
-	| "Scheiß" | "Woschd" 
+lage1:	"Katzen" | "Hamster" | "Sonnen" | "MÃ¶nchs"| "Frosch" | "Dudel"
+	| "ScheiÃŸ" | "Woschd" 
 ;
 
-lage2:	  "brunnen" | "feld" | "acker" | "tröpfchen" | "tropfen" | "grube"
+lage2:	  "brunnen" | "feld" | "acker" | "trÃ¶pfchen" | "tropfen" | "grube"
 	| "blut"
 ;
 
-attribut1: "erdig" | "kräftig" | "nobel" | "fein" | "blumig" | "süffig"
-	| "vornehm" | "zurückhaltend" | "knackig" | "griffig" | "markant"
+attribut1: "erdig" | "krÃ¤ftig" | "nobel" | "fein" | "blumig" | "sÃ¼ffig"
+	| "vornehm" | "zurÃ¼ckhaltend" | "knackig" | "griffig" | "markant"
 	| "fruchtig"
 ;
 
 attribut2:
-	  "Strenge" | "Finesse" | "Kraft" | "Eleganz" | "Bodenständigkeit"
-	| "Würze" | "Natürlichkeit" | "Säure" | "Frucht"
+	  "Strenge" | "Finesse" | "Kraft" | "Eleganz" | "BodenstÃ¤ndigkeit"
+	| "WÃ¼rze" | "NatÃ¼rlichkeit" | "SÃ¤ure" | "Frucht"
 ;
 
-neg-attr1: "mosig"|"dumpf"|"klebrig"|"süßlich"|"aufdringlich"|"holzig"
-	| "mickrig"|"faulig"|"künstlich"
+neg-attr1: "mosig"|"dumpf"|"klebrig"|"sÃ¼ÃŸlich"|"aufdringlich"|"holzig"
+	| "mickrig"|"faulig"|"kÃ¼nstlich"
 ;
 
 b:	"Abgang" | "Ansatz"
@@ -76,13 +76,13 @@ er:	"der Wein" | "er" | "der " $Rebsorte-v
 ;
 
 aroma-akk:
-	   ["verwelkte"|"frische"|""] " " ["Kirsch"|"Wiesen"|"Tulpen"] "blüten"
-	 | ["frische"|"faulige"] " " ["Pferde"|"August"|"Herbst"] ["äpfel"|"beeren"]
+	   ["verwelkte"|"frische"|""] " " ["Kirsch"|"Wiesen"|"Tulpen"] "blÃ¼ten"
+	 | ["frische"|"faulige"] " " ["Pferde"|"August"|"Herbst"] ["Ã¤pfel"|"beeren"]
 ;
 
 aroma-dat:
-	   ["verwelkten"|"frischen"|""] " " ["Kirsch"|"Wiesen"|"Tulpen"] "blüten"
-	 | ["frischen"|"fauligen"] " " ["Pferde"|"August"|"Herbst"] ["äpfeln"|"beeren"]
+	   ["verwelkten"|"frischen"|""] " " ["Kirsch"|"Wiesen"|"Tulpen"] "blÃ¼ten"
+	 | ["frischen"|"fauligen"] " " ["Pferde"|"August"|"Herbst"] ["Ã¤pfeln"|"beeren"]
 ;
 
 boden:	["Granit"|"Lehm"|"Sand"|"Kalk"] "boden"
@@ -91,12 +91,12 @@ boden:	["Granit"|"Lehm"|"Sand"|"Kalk"] "boden"
 Fass:	["Eichen"|"Holz"|"Alu"|"Kupfer"|"Messing"]"fass"
 ;
 
-Rebsorte: "Veltliner" | "Morio-Muskat"  | "Riesling" | "Müller-Turgau"
+Rebsorte: "Veltliner" | "Morio-Muskat"  | "Riesling" | "MÃ¼ller-Turgau"
 	| "Kerner" | "Cabernet" | "Chauvignon" | "Merlot"
 ;
 
 leicht:	"leicht" | "entfernt"
 ;
 
-kraeftig: "kräftig" | "intensiv"
+kraeftig: "krÃ¤ftig" | "intensiv"
 ;
