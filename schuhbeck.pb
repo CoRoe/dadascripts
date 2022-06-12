@@ -55,7 +55,7 @@ Sauce:
 
 Schickes_Essen:
 	[Schickes_Essen1" nach "
-			   ["Genoveser" | ""Mailänder" | ""Jäger" |
+			   ["Genoveser" | "Mailänder" | "Jäger" |
 			   "Müllerin" | "Fränkischer" | "Gardasee"]" Art" |
 	Schickes_Essen1" an "Sauce |
 	"Carpaccio von "Schickes_Essen1" an "Sauce] |
@@ -213,8 +213,8 @@ Servieren: ["Sofort servieren" | "Abkühlen lassen und servieren" |
 ;
 
 
-Nachsatz: ["Sehen's"|"Man sieht"]", so leicht können'S "
-	  ["italienisch"|"orientalisch"]" in "Bayern-d" kochen."|
+Nachsatz: ["Sehen's"|"Man sieht"|"Da san'S"]", so leicht können'S "
+	  ["italienisch"|"orientalisch"]" in "Bayern-d" kochen!"|
 	  "Was für ein Party-Hit!"|
 	  "Ihre Freunde werden staunen!"
 ;

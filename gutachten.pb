@@ -1028,7 +1028,7 @@ Stadt:	"Lüneburg"|"Uelzen"|"Stade"|"Elmshorn"|"Schleswig"|"Neustadt a.d.A."
 	|"Suderburg"|"Glückstadt"|"Kiel"|"Hersbruck"|"Ismaningen"
 ;
 
-Land:	"Italien"|"Spanien"|"Österreich"|"Schottland"|"Liechtenstein"
+Land:	"Italien"|"Spanien"|"Österreich"|"Schottland"|"Liechtenstein"|
 	"Luxemburg"
 ;
 
