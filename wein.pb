@@ -154,9 +154,9 @@ Bouquet2: ["Am Gaumen"|"In der Nase"]" mit "["großer"|"feiner"]" "
 Bouquet3: ["Dieser Wein"|"Diese Cuvée"|"Dieser "$Rebsorte-v]" verbindet auf "
 	  ["überzeugende"|"gelungene"|"überraschende"|"vorbildliche"]
 	  " Weise das "["Säuerliche"|"Prickelnde"|"Aromatische"|"Duftige"]
-	  " eines guten "$Rebsorte-v" mit "
+	  " eines guten "Rebsorte-int" mit "
 	  ["der Durchsetzungskraft"|"der Raffinesse"|"dem Comme-il-faut"]
-	  " eines "$Rebsorte-v" und weiß damit "
+	  " eines "Rebsorte-int" und weiß damit "
 	  ["am Gaumen zu gefallen"|"dem Gaumen zu schmeicheln"]". "
 ;
 
