@@ -166,13 +166,14 @@ Bouquet4: ["Sortenypische"|"Lagentypische"]" "[" und doch" | "aber" | "und zugle
 
 Bouquet-Nachsatz:
 	["Sein "Charakteristik-m" Charakter "|"Seine "["durchaus "|""]interessante" Note "]
-	["entwickelt sich"|"wird gefördert"]" durch "
+	["entwickelt sich"|"wird gefördert"|"entsteht"]" durch "
 	[
 	  ["die Reifung"|"den Ausbau"]" im "["Barrique"|"Eichenholzfass"]
 	    |"den Anbau auf "["vulkanischem"|"moorigem"|"sandigem"]" "
 	      ["Boden"|"Untergrund"]
 	    | "das "["milde"|"raue"|"günstige"|"regnerische"]" Klima"
-          | "die Lagerung "["in alten Benzinfässern"|"in Ziegenställen"]
+          | "die Lagerung "["in alten Benzinfässern"|"in Ziegenställen"|
+	    "in Kohlenkellern"|"in Plastikkanistern"]
 	]
 	". "
 ;

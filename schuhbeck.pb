@@ -139,7 +139,7 @@ Gewuerz: "Ingwer" | "Ketchup" | "Pfeffer" | "Rosmarin" |
 	 "Ingwer"|"Paprika"|"Pfeffer" | "Zwiebel" | "Knoblauch" | "Bärlauch"
 ;
 
-zerkleinern: ["würfeln"|"in "["kleine"|"mittelgroße"]" "["Würfel"|"Streifen"|"Ringe"]" schneiden"|
+zerkleinern: ["würfeln"|"in "["kleine"|"mittelgroße"|"daumendicke"]" "["Würfel"|"Streifen"|"Ringe"]" schneiden"|
 	     "hacken"|"zerteilen"|"pürieren"|"stifteln"]
 ;
 
@@ -195,8 +195,28 @@ Saettigungsbeilage_kochen:
 	["exotische"|"pikante"]" Note hinzufügen. "]|
 	"Auf zirka ein "["Drittel"|"Viertel"]" reduzieren. "|
 	"Einkochen lassen, bis es Fäden zieht. "]
+	[""|Profitip]
 ;
 
+Profitip: ["Und"|"Noch"]" ein Tip "["vom Profi"|"von mir"]": "
+	  Profitip1
+;
+
+Profitip1: ["Die Marinade"|"Die Flüssigkeit"]" nicht "["weggießen"|"wegschütten"]
+	   ", sondern "["einfrieren"|"in ein Einmachglas füllen"]". "
+	   [""|"Was Sie vielleicht nicht wissen: "|"Was wenig bekannt ist: "]
+	   ["Sie eignet sich wunderbar für"
+	   |"Sie ist ein "zuverlaessiges" Hausmittel gegen "Wehwehchen"."
+	   ]
+;
+
+
+Wehwehchen: "Haarausfall" | "Kopfläuse" | "Darmbeschwerden" | "Warzen" |
+	    "Fußgeruch"
+;
+
+zuverlaessiges: "zuverlassiges" | "bewährtes" | "schon im alten China bekanntes"
+;
 
 Nachwuerzen: [["Wenn Sie's etwas "["kräftiger"|"pikanter"|"schärfer"]" mögen, "
 	     "können Sie natürlich mit "|
@@ -213,7 +233,7 @@ Servieren: ["Sofort servieren" | "Abkühlen lassen und servieren" |
 ;
 
 
-Nachsatz: ["Sehen's"|"Man sieht"|"Da san'S"]", so leicht können'S "
+Nachsatz: ["Sehen's"|"Man sieht"|"Da san'S"]", so leicht können S' "
 	  ["italienisch"|"orientalisch"]" in "Bayern-d" kochen!"|
 	  "Was für ein Party-Hit!"|
 	  "Ihre Freunde werden staunen!"
